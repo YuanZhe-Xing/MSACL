@@ -71,8 +71,8 @@ class ReplayBuffer:
         total_bytes = 0
         if self.size == 0:
             return 0.0
-        for key in self.n_step_buf.keys():
-            arr = self.n_step_buf[key]
+        for key in self.buf.keys():
+            arr = self.buf[key]
             if isinstance(arr, np.ndarray):
                 total_bytes += arr[:self.size].nbytes     
         used_mb = total_bytes / (1024 * 1024)
@@ -135,3 +135,4 @@ class ReplayBuffer:
 
 
         return batch
+
