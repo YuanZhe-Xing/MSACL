@@ -212,10 +212,9 @@ MSACL/
 └── data/  # the evaluator data
 
 ```
-Citation
+## Citation
 If you find our work useful in your research, please consider citing
 ```bibtex
-bibtex
 @misc{zhang2025MSACL,
       title={MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control}, 
       author={Yongwei Zhang and Yuanzhe Xing and Quan Quan and Zhikun She},
@@ -226,3 +225,4 @@ bibtex
       url={https://arxiv.org/abs/2512.24955},
 }
 ```
+
