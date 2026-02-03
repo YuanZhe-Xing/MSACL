@@ -30,7 +30,7 @@ And the overall flowchart of MSACL is illustrated in following picture.
   </figcaption>
 </center>
 
-You can read more about MSACL algorithm and the environments in our [paper](https://doi.org/10.48550/arXiv.2512.24955). 
+You can read more about MSACL algorithm and the environments in our [paper](https://doi.org/10.48550/arXiv.2512.24955) and the *Supplementary Material Benchmarking Environments for MSACL.pdf* file. 
 
 ## Target Audience: 
 This repository is highly suitable for researchers and engineers in the field of robot control, particularly for continuous control tasks like quadrotor flight, where guaranteed exponential stability is paramount for achieving high-precision trajectory tracking and robust performance.
@@ -225,6 +225,7 @@ If you find our work useful in your research, please consider citing
       url={https://arxiv.org/abs/2512.24955},
 }
 -->
+
 
 
 
