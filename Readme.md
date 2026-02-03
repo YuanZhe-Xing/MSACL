@@ -211,7 +211,7 @@ MSACL/
 ├── events.out.tfevents.*  # TensorBoard log files
 └── data/  # the evaluator data
 
-<!--
+{% comment %}
 ```
 ## Citation
 If you find our work useful in your research, please consider citing
@@ -226,7 +226,8 @@ If you find our work useful in your research, please consider citing
       url={https://arxiv.org/abs/2512.24955},
 }
 ```
--->
+{% endcomment %}
+
 
 
 
