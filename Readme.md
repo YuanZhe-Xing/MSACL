@@ -40,7 +40,6 @@ This repository is highly suitable for researchers and engineers in the field of
 ## Core Features
 - ✅ Modular Design: Decouples core components (algorithms, sampling, experience replay, evaluators, etc.) for easy extension and replacement
 - ✅ N-step Off-policy Training: Supports the off-policy serial training process for MSACL learning
-- ✅ Prioritized Experience Replay (PER): Optional PER activation to improve sample utilization efficiency
 - ✅ GPU Acceleration: Supports GPU deployment of training data and networks to boost training speed
 - ✅ Comprehensive Evaluation System: Built-in evaluator tracks reward/cost metrics during training and automatically saves the optimal model
 - ✅ TensorBoard Visualization: Real-time monitoring of training metrics, memory usage, sampling/training time consumption, etc.
@@ -226,6 +225,7 @@ If you find our work useful in your research, please consider citing
       url={https://arxiv.org/abs/2512.24955},
 }
 -->
+
 
 
 
