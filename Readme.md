@@ -211,7 +211,7 @@ MSACL/
 └── data/  # the evaluator data
 ```
 
-<!--
+
 ## Citation
 If you find our work useful in your research, please consider citing
 ```bibtex
@@ -224,7 +224,8 @@ If you find our work useful in your research, please consider citing
       primaryClass={cs.SY},
       url={https://arxiv.org/abs/2512.24955},
 }
--->
+```
+
 
 
 
